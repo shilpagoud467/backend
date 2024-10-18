@@ -1,0 +1,49 @@
+Objective: 
+The objective of this lab is to understand and implement CSS Grid to create structured and responsive layouts. This includes defining a grid container, setting up columns and rows, managing gaps between items, and aligning items within the grid.
+Problem Statement: 
+Write an HTML and CSS program that demonstrates the use of CSS Grid properties. The program should include a container with multiple grid items, showcasing how to define a grid layout, set up columns, manage spacing between items, and align items both horizontally and vertically
+Procedure:
+1.	Open your text editor or IDE.
+2.	Create a new HTML file and add the following code:
+       
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Example</title>
+    <style>
+        .container {
+            display: grid; /* Establishes a grid container */
+            grid-template-columns: repeat(3, 100px); /* Three columns of 100px each */
+            grid-gap: 10px; /* Gap between grid items */
+            justify-content: center; /* Centers items horizontally */
+            align-items: center; /* Centers items vertically */
+            height: 300px; /* Set a fixed height for the container */
+            background-color: #f5c0e6; /* Background color for visibility */
+        }
+
+        .item {
+            width: 100px; /* Width of each item */
+            height: 100px; /* Height of each item */
+            background-color: skyblue; /* Background color of items */
+            color: black; /* Text color of items */
+            text-align: center; /* Center align text */
+            line-height: 100px; /* Vertical alignment */
+            border-radius: 5px; /* Rounded corners */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item"><img src="https://moviegalleri.net/wp-content/gallery/ninnu-kori-nani-interview/ninnu-kori-movie-actor-nani-interview-images-2a2c7ca.jpg" width="100px" height="100px" ></div>
+        <div class="item"><img src="https://wallpapercave.com/wp/wp8236210.jpg"width="100px" height="100px"></div>
+        <div class="item"><img src="https://e0.pxfuel.com/wallpapers/717/396/desktop-wallpaper-pawan-kalyan-south-actor.jpg"width="100px" height="100px"></div>
+        <div class="item"><img src="https://instantstories.com/uploads/stories/anushka-shetty/anushka-shetty-latest-hot-images-eucu-lg.jpg?v=1569713527"width="100px" height="100px"></div>
+        <div class="item"><img src="https://th.bing.com/th/id/R.3cc9c2326abc7b01c2fee696044e11a8?rik=19tA3Q35EJbIcg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-Nbi8uXRcMJM%2fTvytOXho9-I%2fAAAAAAAADLY%2fZK9TSEe2dbE%2fs1600%2fSoundarya.9.jpg&ehk=xwyXBCG4tWqsoB3SP2Tm%2fIu2ClUBG3chaimkbL%2fLrxs%3d&risl=&pid=ImgRaw&r=0"width="100px" height="100px"></div>
+        <div class="item"><img src="https://th.bing.com/th/id/OIP.kMDPe7Dn67ylzJD_-MD9lQHaKS?rs=1&pid=ImgDetMain"width="100px" height="100px"></div>
+    </div>
+</body>
+</html>
+         3. Save the file with a .html extension 
+         4. Open the saved HTML file in your web browser to view the styled document.
